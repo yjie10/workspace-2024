@@ -36,10 +36,10 @@ Note: In JS, when you access the value of an input element, it is _always_ a str
 
 @index.html, @first-proj.js, @first-proj.ts
 
-Install:
+Install: <br />
 `npm install -g typescript`
 
-Compile
+Compile <br />
 `tsc helloworld.ts`
 
 ### 5. TypeScript Advantages - Overview
@@ -57,26 +57,26 @@ TypeScript adds ...
 
 ### Course Outline
 
-TypeScript Basics
-↓
-Compiler & Configuration Deep Dive
-↓
-Working with Next-gen JS Code
-↓
-Classes & Interfaces
-↓
-Advanced Types & TS Features
-↓
-Generics
-↓
-Decorators
-↓
-Full Proj
-↓
-Working with Namespaces & Modules
-↓
-Webpack & TS
-↓
-Third-Party Libraries & TS
-↓
+TypeScript Basics <br />
+↓ <br />
+Compiler & Configuration Deep Dive <br />
+↓ <br />
+Working with Next-gen JS Code <br />
+↓ <br />
+Classes & Interfaces <br />
+↓ <br />
+Advanced Types & TS Features <br />
+↓ <br />
+Generics <br />
+↓ <br />
+Decorators <br />
+↓ <br />
+Full Proj <br />
+↓ <br />
+Working with Namespaces & Modules <br />
+↓ <br />
+Webpack & TS <br />
+↓ <br />
+Third-Party Libraries & TS <br />
+↓ <br />
 React + TS & NodeJS + TS
