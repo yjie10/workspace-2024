@@ -4,9 +4,9 @@
 
 Core Types That JS already knows and TypeScript also supports:
 
-- number
-- string
-- boolean
+- number - `1, 5.3, -10`
+- string - `'Hi', "Hi"`
+- boolean - `true, false`
 
 number: All numbers, no differentiation between integers or floats.
 string: All text values.
@@ -35,3 +35,84 @@ const number2 = 2.8;
 const printResult = true;
 const sumMessage =`${number1} + ${number2} is: `
 `
+
+### 17. Object Types
+
+@proj-setup
+
+Core Types That JS already knows and TypeScript also supports:
+
+- number
+- string
+- boolean
+- object - `{age: 30}`
+
+object: any JS object, more specific types (type of object) are possible.
+
+### 18. Nested Objects & Types
+
+Notes from the course.
+
+`const product = {
+id: 'ss004',
+price: 2222,
+tags: ['rank-b', 'space-atk'],
+details: {
+title: 'SS-004',
+description: '##1 - in observation'
+}
+
+// type of above object would be:
+{
+id: string;
+price: number;
+tags: string[];
+details: {
+title: string;
+description: string;
+}
+}
+}`
+
+### 19. Array Types
+
+Core Types That JS already knows and TypeScript also supports:
+
+@proj-setup
+
+- number
+- string
+- boolean
+- object - `{age: 30}`
+- Array - `[1, 2, 3]`
+
+Array: Any JS array, type can be flexible or strict (regarding the element types).
+
+### 20. Working with Tuples
+
+@proj-setup
+
+Core Types vanilla JS doesn't know but supported by TS:
+
+- Tuple - `[1, 2]`
+
+Tuple: NEW - Fixed-length and Fixed-type array.
+
+Good to use if you have a scenario: where you need exactly X amount of values (length) in an array and you know the type of each value in advance.
+
+### 21. Working with Enums
+
+@proj-setup
+
+Core Types vanilla JS doesn't know but supported by TS:
+
+- Tuple
+- Enum - `enum {LABEL1, LABEL2}`
+
+Enum: NEW - Automatically enumerated global constant identifiers.
+
+Often, enums are defined with all-uppercase values but that's not a must-do.
+
+Default behavior is starting at zero, but not restricted to numbers, can use strings as well.
+
+### 22. The "any" Type
